@@ -1,0 +1,52 @@
+# ----------------------------
+# Python cache files
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------
+# Virtual Environment
+# ----------------------------
+.venv/
+venv/
+
+# ----------------------------
+# Jupyter Notebook checkpoints
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Dataset folders (very large)
+# ----------------------------
+data/
+dataset/
+datasets/
+
+# ----------------------------
+# Model files (large)
+# ----------------------------
+*.h5
+*.hdf5
+*.tflite
+*.pb
+*.onnx
+
+# ----------------------------
+# Auto-generated results
+# These should be created at runtime but NOT stored in GitHub
+# ----------------------------
+static/results/images/
+static/results/reports/
+
+# ----------------------------
+# OS-specific junk files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Temporary / log files
+# ----------------------------
+*.log
